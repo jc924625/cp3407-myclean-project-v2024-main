@@ -1,29 +1,59 @@
-# Actual iteration-1 board, (see chapters 3 and 4), add your start and end dates 
+# Iteration 1 – Project Development Log
 
-Checklist: 
-1. github entry timestamps
-2. User stories are correct: see p39
+## Iteration Scope
 
-* Assumed Velocity: ?? 
-* Number of developers: ??
-* Total estimated amount of work: YY days
+This iteration focuses on building the core functionality of the MyClean application, including account access, basic booking features, and separate dashboards for customers and cleaners.
 
-User stories or tasks (see chapter 4):
-1. [user story or task title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
+---
 
-In progress:
-* Task-2 (developer name or initials), date started
-* ...
+## Features Implemented
 
-Completed:
-* Task-3 (developer name or initials), date completed
-* ...
+1. **User Registration and Login**  
+   Enables account creation and secure login for both customers and service providers.
 
-### Burn Down for iteration-1 (see chapter 4):
-Update this at least once per week
-* 4 weeks left, xx days of estimated amount of work 
-* 2 weeks left, xx days
-* 1 weeks left, xx days
-* 0 weeks left, xx days
-* Actual Velocity: ?? 
+2. **Booking System**  
+   Allows customers to book cleaning services by selecting a date and time.
+
+3. **Role-Based Dashboard Access**  
+   After login, users are directed to dashboards based on their role.
+
+4. **Cleaner Booking Management**  
+   Service providers can view assigned bookings on their dashboard.
+
+---
+
+## Key Activities
+
+- Developed the login and registration UI
+- Created database fields for users and bookings
+- Built a functional booking form
+- Implemented dashboard logic for different user roles
+- Connected frontend to backend workflows (using Bubble or code)
+
+---
+
+## Challenges Encountered
+
+- Handling dashboard logic based on user type
+- Designing booking flow without a payment system
+- Structuring the user experience across both roles
+
+---
+
+## Outcomes
+
+All planned features for this iteration have been completed and tested. Users are able to:
+- Register and log in
+- Submit a cleaning booking request
+- View personalized dashboards
+- View upcoming bookings (for providers)
+
+---
+
+## Screenshots
+
+```markdown
+![Login Page](./images/iteration1_completion_evidence/login_page.png)
+![Customer Dashboard](./images/iteration1_completion_evidence/customer_dashboard.png)
+![Booking Form](./images/iteration1_completion_evidence/booking_form.png)
+![Cleaner Dashboard](./images/iteration1_completion_evidence/provider_dashboard.png)
