@@ -1,29 +1,58 @@
-# Actual iteration-2 board, (see chapters 3 and 4), add your start and end dates 
+# Iteration 2 – Project Development Log
 
-Checklist: 
-1. github entry timestamps
-2. User stories are correct: see p39
+## Iteration Scope
 
-* Assumed Velocity FROM iteration-1: ?? 
-* Number of developers: ??
-* Total estimated amount of work: YY days
+This iteration focuses on extending the core system by improving booking visibility, enhancing the user experience, and allowing service providers to customize their profiles.
 
-User stories or tasks (see chapter 4):
-1. [user story or task title](./user_stories/user_story_01_title.md), priority XX, YY days 
-2. ...
+---
 
-In progress:
-* Task-2 (developer name or initials), date started
-* ...
+## Features Implemented
 
-Completed:
-* Task-3 (developer name or initials), date completed
-* ...
+1. **View Bookings (Customers)**  
+   Customers can view a list of all their upcoming and past cleaning appointments.
 
-### Burn Down for iteration-2 (see chapter 4):
-Update this at least once per week
-* 4 weeks left, xx days of estimated amount of work 
-* 2 weeks left, xx days
-* 1 weeks left, xx days
-* 0 weeks left, xx days
-* Actual Velocity: ?? 
+2. **Cancel or Reschedule Bookings**  
+   Customers can cancel or update existing bookings for better flexibility.
+
+3. **Cleaner Profile and Availability**  
+   Cleaners can update their available times, service descriptions, and contact preferences.
+
+4. **Service Rating and Review System**  
+   Customers can leave ratings and comments after a cleaning session is completed.
+
+---
+
+## Key Activities
+
+- Built booking history view for customers
+- Implemented cancel and reschedule logic
+- Created editable profile interface for service providers
+- Connected a simple review form to each booking record
+
+---
+
+## Challenges Encountered
+
+- Managing bookings dynamically between roles
+- Making forms editable in both dashboards
+- Capturing and storing user-generated reviews
+
+---
+
+## Outcomes
+
+This iteration successfully added several user-facing improvements. Users can now:
+- View and manage their bookings
+- Reschedule or cancel bookings
+- Cleaners can customize their service offerings
+- Customers can leave feedback and reviews
+
+---
+
+## Screenshots
+
+```markdown
+![Booking List](./images/iteration2_completion_evidence/booking_list.png)
+![Reschedule Booking](./images/iteration2_completion_evidence/reschedule.png)
+![Cleaner Profile Settings](./images/iteration2_completion_evidence/cleaner_profile.png)
+![Review Form](./images/iteration2_completion_evidence/review_form.png)
