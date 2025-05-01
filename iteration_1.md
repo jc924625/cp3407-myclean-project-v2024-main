@@ -52,7 +52,7 @@ All planned features for this iteration have been completed and tested. Users ar
 
 ## Screenshots
 
-```markdown
+
 ![Login Page](images/login.png)
 ![Booking Form](images/booking.png)
 ![Cleaner Dashboard](images/cleaner.png)
