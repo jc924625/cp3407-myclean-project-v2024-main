@@ -41,22 +41,12 @@ Two solo iterations of 10 work days each:
 
 ---
 
-## 🧪 Testing & Validation
-
-Testing details and screenshots are provided in iteration pages, including:
-- Functional tests
-- UI screenshots
-- Manual walkthroughs
-
----
-
 ## 📂 Technologies & Tools
 
-- **Platform**: [Bubble / PHP + MySQL / Other]
+- **Platform**:  PHP + MySQL / Other
 - **Version Control**: GitHub
 - **Design Tools**: Figma, GenMyModel, Gliffy
 - **Development**: HTML, CSS, JS (if applicable)
-- **Project Management**: Trello
 
 ---
 
