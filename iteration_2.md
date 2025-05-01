@@ -45,6 +45,5 @@ This iteration successfully added several user-facing improvements. Users can no
 - View and manage their bookings
 - Reschedule or cancel bookings
 - Cleaners can customize their service offerings
-- Customers can leave feedback and reviews
 
 ---
