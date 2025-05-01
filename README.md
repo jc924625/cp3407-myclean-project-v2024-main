@@ -8,7 +8,6 @@ This repository is for my individual submission for the CP3407 Advanced Software
 
 - **Name**: Johns Bijoy  
 - **Project Type**: Individual  
-- **Platform**: [Insert your deployment link here once available]  
 
 ---
 
@@ -20,7 +19,7 @@ This repository is for my individual submission for the CP3407 Advanced Software
 ### 🔹 Development Timeline  
 Two solo iterations of 10 work days each:
 - **Iteration 1**: Registration, Login, Booking System
-- **Iteration 2**: Booking Management, Payment Simulation, Profile
+- **Iteration 2**: Booking Management,  Profile
 
 ---
 
