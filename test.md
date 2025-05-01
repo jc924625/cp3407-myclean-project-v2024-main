@@ -12,10 +12,9 @@ This page documents the testing processes used to validate core features in the 
 | Booking Creation              | Customer can successfully submit a booking form        | ✅ Pass |
 | Dashboard Role Redirection    | Users are redirected to appropriate dashboard after login | ✅ Pass |
 | View Bookings                 | Bookings are correctly shown for the logged-in customer | ✅ Pass |
-| Cancel/Reschedule Bookings    | Bookings can be modified or deleted from the dashboard  | ✅ Pass |
 | Cleaner Booking View          | Cleaner dashboard displays all assigned bookings        | ✅ Pass |
 | Profile Editing (Cleaner)     | Cleaners can update availability and details            | ✅ Pass |
-| Submit Reviews                | Customers can leave feedback after a booking            | ✅ Pass |
+
 
 ---
 
