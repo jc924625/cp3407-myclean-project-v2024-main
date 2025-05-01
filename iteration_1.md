@@ -53,7 +53,6 @@ All planned features for this iteration have been completed and tested. Users ar
 ## Screenshots
 
 ```markdown
-![Login Page](./images/iteration1_completion_evidence/login_page.png)
-![Customer Dashboard](./images/iteration1_completion_evidence/customer_dashboard.png)
-![Booking Form](./images/iteration1_completion_evidence/booking_form.png)
-![Cleaner Dashboard](./images/iteration1_completion_evidence/provider_dashboard.png)
+![Login Page](images\login.png)
+![Booking Form](images\booking.png)
+![Cleaner Dashboard](images\cleaner.png)

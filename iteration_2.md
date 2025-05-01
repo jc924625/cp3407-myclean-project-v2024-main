@@ -48,11 +48,3 @@ This iteration successfully added several user-facing improvements. Users can no
 - Customers can leave feedback and reviews
 
 ---
-
-## Screenshots
-
-```markdown
-![Booking List](./images/iteration2_completion_evidence/booking_list.png)
-![Reschedule Booking](./images/iteration2_completion_evidence/reschedule.png)
-![Cleaner Profile Settings](./images/iteration2_completion_evidence/cleaner_profile.png)
-![Review Form](./images/iteration2_completion_evidence/review_form.png)
