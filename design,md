@@ -1,0 +1,69 @@
+# System Design – MyClean Solo Project
+
+This document outlines the technical design of the "MyClean" cleaning service application. It includes the system architecture (UML) and data structure (ER diagram), which together define how users interact with the platform and how data is managed in the backend.
+
+---
+
+## 1. System Architecture Diagram (UML)
+
+The UML diagram below describes the high-level structure of the application, including how customers and cleaners interact with key system components.
+
+![UML Diagram](./images/uml_design/A_UML_(Unified_Modeling_Language)_architecture_dia.png)
+
+### 🧩 Key Components
+
+- **Login/Register Page**: Entry point for all users.
+- **Customer Dashboard**: Shown after login if the user is a customer.
+- **Cleaner Dashboard**: Shown for service providers.
+- **Booking System**: Shared module that handles booking requests and calendar logic.
+- **Review System**: Allows users to submit and view reviews after services.
+- **User Profile Management**: Lets cleaners and customers update personal info.
+- **Database**: Central data store for users, bookings, and reviews.
+
+---
+
+## 2. Entity-Relationship Diagram (ERD)
+
+The ER diagram models how data is structured in the backend of the application. It includes four main tables and their relationships.
+
+![ER Diagram](./images/uml_design/A_diagram_in_Entity-Relationship_(ER)_style_illust.png)
+
+### 🧮 Tables & Relationships
+
+#### 2.1 Users
+- `user_id` (PK)
+- `name`
+- `email`
+- `password`
+- `role` — indicates customer or cleaner
+
+#### 2.2 Cleaners
+- `cleaner_id` (PK)
+- `availability`
+- `service_description`
+- `contact_preference`
+
+#### 2.3 Bookings
+- `booking_id` (PK)
+- `user_id` (FK) — the customer
+- `cleaner_id` (FK) — the assigned cleaner
+- `date`
+- `time`
+- `status`
+
+#### 2.4 Reviews
+- `review_id` (PK)
+- `booking_id` (FK)
+- `rating`
+- `comment`
+
+### 🔗 Relationships
+- One user can make many bookings.
+- One cleaner can be linked to many bookings.
+- One booking has exactly one review.
+
+---
+
+## Summary
+
+This design supports the MyClean application's goal of enabling efficient service bookings, role-specific views, and a clean separation of data and logic. It is modular, scalable, and aligned with modern web development practices.

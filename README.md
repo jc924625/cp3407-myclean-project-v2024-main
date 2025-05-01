@@ -9,7 +9,6 @@ This repository is for my individual submission for the CP3407 Advanced Software
 - **Name**: Johns Bijoy  
 - **Project Type**: Individual  
 - **Platform**: [Insert your deployment link here once available]  
-- **GitHub Repo**: [Insert this repo's link]
 
 ---
 
@@ -29,7 +28,6 @@ Two solo iterations of 10 work days each:
 
 - [Iteration 1 Details](./iteration_1.md)  
 - [Iteration 2 Details](./iteration_2.md)  
-- [Future Iteration Ideas](./Iteration_Future.md)
 
 ---
 
